@@ -8,13 +8,15 @@ export const SponsorButton = ({ sponsorId }) => (
       className="bmc-button"
       target="_blank"
       rel="noopener noreferrer"
-      href={`https://www.buymeacoffee.com/${sponsorId}`}
+      href={`https://cafecito.app/${sponsorId}`}
     >
       <img
-        src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg"
+        src="https://cdn.cafecito.app/imgs/cafecito_logo.svg"
         alt="Buy me a coffee"
       />
       <span>Buy me a coffee</span>
     </a>
   </div>
 )
+
+
